@@ -1,0 +1,26 @@
+EX-J1-03 - Revue de calcul santé
+
+Temps : 45 min.
+
+Objectif : formuler des commentaires de revue utiles.
+
+À produire : 3 commentaires de revue, dont 1 bloquant.
+
+Contraintes : relier chaque commentaire à un risque ou à un test.
+
+Indices : cherchez noms, nombres magiques, booléens, traces, tests.
+
+BDD : Given une garantie inactive, When le calcul est demandé, Then le remboursement est zéro.
+
+Travail détaillé :
+
+- Lire le code sans le modifier.
+- Lister les risques : nommage, nombre magique, booléen, trace, test.
+- Classer les commentaires : bloquant, important, suggestion.
+- Proposer un test manquant.
+- Proposer un refactoring minimal.
+
+Critères de réussite :
+- au moins un commentaire cite un risque métier ;
+- la revue ne se limite pas au style ;
+- le ton reste constructif.

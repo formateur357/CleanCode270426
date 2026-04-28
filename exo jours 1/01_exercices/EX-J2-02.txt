@@ -1,0 +1,26 @@
+EX-J1-02 - Reste de plafond
+
+Temps : 45 min.
+
+Objectif : remplacer des variables opaques par des noms métier.
+
+À produire : AnnualCoverageLimitBalance.
+
+Contraintes : solde jamais négatif.
+
+Indices : nommez avant de simplifier.
+
+BDD : Given un plafond partiellement consommé, When une demande dépasse le solde, Then le solde plafonne la demande.
+
+Travail détaillé :
+
+- Remplacer a, b, c, x par des noms métier.
+- Extraire remainingBalance.
+- Tester que le solde ne devient jamais négatif.
+- Tester que la demande passe entièrement si le solde suffit.
+
+Critères de réussite :
+
+- le code peut être expliqué sans lire la formule ;
+- les deux cas "solde suffisant" et "solde insuffisant" sont couverts.
+
