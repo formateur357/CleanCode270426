@@ -1,0 +1,10 @@
+Consignes étape par étape
+
+- Complétez les définitions : salaire brut, assiette plafonnée, cotisation due, PMSS.
+- Ecrivez les tests de seuil avant de refactorer.
+- Remplacez 3900 par PMSS_MENSUEL_FICTIF.
+- Remplacez 2 par TAUX_COTISATION_POURCENT.
+- Renommez f, s et b.
+- Extrayez une fonction assiette_plafonnee si elle rend le calcul plus lisible.
+- Remplacez l'exception vague par une exception explicite.
+- Vérifiez que BRSS n'apparaît pas dans votre code.
