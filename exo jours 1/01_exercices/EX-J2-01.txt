@@ -1,0 +1,27 @@
+EX-J1-02 - Remboursement santé avec plafond annuel
+
+Temps : 60 min.
+
+Objectif : calculer un remboursement plafonné.
+
+À produire : HealthReimbursementCalculator + AnnualCoverageLimit.
+
+Contraintes : ne pas dépasser frais réels, demande, plafond restant.
+
+Indices : écrivez d'abord le test "plafond restant 50".
+
+BDD : Given un plafond de 200 consommé à 150, When la demande vaut 100, Then le remboursement vaut 50.
+
+Travail détaillé :
+
+Identifier les trois limites du calcul.
+- Écrire le test "plafond restant 50".
+- Écrire le test "frais réels plus faibles que la demande".
+- Écrire le test "plafond épuisé".
+- Extraire AnnualCoverageLimit.
+- Réduire les conditions imbriquées avec des clauses de garde.
+
+Critères de réussite :
+- au moins 3 tests ;
+- aucun nombre magique non expliqué ;
+- le calcul reste lisible sans commentaire long.
