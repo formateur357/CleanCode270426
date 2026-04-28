@@ -17,7 +17,7 @@ Travail détaillé :
 - Lire le code sans le modifier.
 - Lister les risques : nommage, nombre magique, booléen, trace, test.
 - Classer les commentaires : bloquant, important, suggestion.
-- Proposer un test manquant.
+- Proposer un test manquant. 
 - Proposer un refactoring minimal.
 
 Critères de réussite :
