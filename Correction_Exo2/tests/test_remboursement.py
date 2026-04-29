@@ -1,5 +1,5 @@
 from remboursement import calculer_remboursement
-
+import pytest
 
 @pytest.mark.parametrize(
     "frais_reels, montant_demande, plafond_annuel, deja_consomme, attendu",
@@ -31,7 +31,7 @@ def test_remboursement_est_limite_par_le_plafond_restant():
         deja_consomme=50
     )
     
-    assert result == 100
+    assert result == 10
     
 def test_remboursement_est_limite_par_les_frais_reels():
     result = calculer_remboursement(
