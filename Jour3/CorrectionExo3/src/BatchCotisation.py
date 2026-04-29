@@ -28,23 +28,3 @@ class BatchProcessingReport:
     processed_lines: int
     read_lines: int
     anomalies: list[BatchAnomaly]
-
-    total_contribution = 0
-    processed_lines = 0
-    read_lines = 0
-    anomalies = []
-
-    for i, line in enumerate(lines):
-        read_lines += 1
-        if line.contribution_base is None or line.contribution_base < 0:
-            anomalies.append(BatchAnomaly(i + 1, "base negative"))
-        else:
-            total_contribution += line.contribution_base * CONTRIBUTION_RATE_PERCENT // 100
-            processed_lines += 1
-
-    return BatchProcessingReport(
-        total_contribution=total_contribution,
-        processed_lines=processed_lines,
-        read_lines=read_lines,
-        anomalies=anomalies
-    )
